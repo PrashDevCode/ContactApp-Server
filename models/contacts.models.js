@@ -2,22 +2,22 @@ import mongoose from "mongoose";
 
 const contactSchema = new mongoose.Schema({
   first_name: {
-    type: String,   
+    type: String,
     required: true,
   },
   last_name: {
     type: String,
     required: true,
   },
-    email: {
+  email: {
     type: String,
     required: true,
   },
-    phone: {
+  phone: {
     type: String,
     required: true,
   },
-    address: {
+  address: {
     type: String,
     required: true,
   },
